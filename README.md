@@ -4,6 +4,9 @@ Blockchain YT.
 # Usage
 This smart contract defines an ERC-20 token named "AITU Sayed" with the symbol "YTC". ERC-20 is a standard interface for fungible tokens on the Ethereum blockchain. It includes basic functionalities like transferring tokens, checking balances, and approving spending of tokens.
 
+# License
+This project is distributed under the MIT License - see the LICENSE file for details. https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/LICENSE
+
 # Prerequisites
 Solidity Version: The code specifies that it should be compiled using Solidity version 0.8.20 or higher.
 
@@ -22,6 +25,11 @@ The constructor function is executed only once when the contract is deployed. It
 Minting Tokens:
 
 The _mint function is called within the constructor to mint 2000 * 10^18 (2000 with 18 decimal places) tokens and assign them to the address that deployed the contract (msg.sender).
+
+
+
+
+
 
 
 
