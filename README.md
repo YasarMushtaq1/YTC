@@ -26,6 +26,9 @@ Minting Tokens:
 
 The _mint function is called within the constructor to mint 2000 * 10^18 (2000 with 18 decimal places) tokens and assign them to the address that deployed the contract (msg.sender).
 
+# in  pictures
+
+
 
 
 
